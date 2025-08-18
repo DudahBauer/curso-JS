@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contador</title>
+  </head>
+  <body>
+    <header>
+      <h1>Contador de númerozinhos</h1>
+    </header>
+    <section>
+      <p id="contador">0</p>
+
+      <div>
+        <button onclick="aumentar()">Aumentar</button>
+        <button onclick="diminuir()">Diminuir</button>
+      </div>
+    </section>
+    <script>
+      var contador = document.getElementById("contador");
+
+      function aumentar() {
+        if (contador.innerText <= 100) {
+          contador.innerText = Number(contador.innerText) + 1;
+        }
+      }
+      function diminuir() {
+        if (contador.innerText > 0) {
+          contador.innerText = Number(contador.innerText) - 1;
+        }
+      }
+    </script>
+  </body>
+</html>

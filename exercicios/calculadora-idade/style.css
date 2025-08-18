@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    margin-bottom: 15px;
+}
+
+.wrapper{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form-container{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    gap: 13px;
+}
+
+form{
+    background-color: pink;
+    padding: 20px;
+    border-radius: 10px;
+}
+.button-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button-container button{
+    padding: 5px;
+    background-color:rgba(213, 173, 247, 0.619);
+    color: purple;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+#resposta{
+    text-align: center;
+    margin-top: 15px;
+}

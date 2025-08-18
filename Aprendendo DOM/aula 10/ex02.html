@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Somando números</title>
+		<style>
+			div#res {
+				margin-top: 25px;
+			}
+			h1 {
+				font-family: Cambria, Cochin, Georgia, Times, "Times New Roman",
+					serif;
+
+				color: pink;
+			}
+			input {
+				color: rgb(247, 145, 247);
+			}
+		</style>
+	</head>
+	<body>
+		<h1>Somando númeroszinhos</h1>
+		<input type="text" name="primeiroN" id="primeiroN" /> +
+		<input type="text" name="segundoN" id="segundoN" />
+		<input type="button" value="Somar <3" onclick="Somar()" />
+		<div id="res">Resultado</div>
+		<script>
+			function Somar() {
+				var pn = document.getElementById("primeiroN");
+				var sn = document.querySelector("segundoN");
+				var resposta = document.getElementById("res");
+				var n1 = Number(primeiroN.value);
+				var n2 = Number(segundoN.value);
+				var soma = n1 + n2;
+				resposta.innerHTML = `A  soma entre ${n1} e  ${n2} é a: ${soma}`;
+				resposta.style.color = "pink";
+			}
+		</script>
+	</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora de idade</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Verificador de idade</h1>
+      </header>
+      <section>
+        <form>
+          <div class="form-container">
+            <label>Ano de nascimento:</label>
+            <input type="number" id="ano" required min="1600" max="2025" />
+          </div>
+
+          <div class="form-container">
+            <label>Sexo:</label>
+            <div>
+              <input type="radio" value="Feminino" id="feminino" name="txt" />
+              <label for="feminino">Feminino</label>
+            </div>
+
+            <div>
+              <input type="radio" value="Masculino" id="masculino" name="txt" />
+              <label for="masculino">Masculino</label>
+            </div>
+
+            <div>
+              <input type="radio" value="FUMIGA" id="outro" name="txt" />
+              <label for="outro">Outro</label>
+            </div>
+          </div>
+          <div class="button-container">
+            <button type="submit" id="enviar">Enviar respostas</button>
+          </div>
+          <h2 id="resposta">A resposta vai aparecer aqui</h2>
+        </form>
+      </section>
+    </div>
+  </body>
+  <script src="./idades.js"></script>
+</html>
