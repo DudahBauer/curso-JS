@@ -8,7 +8,7 @@
 
 Este repositório contém os exercícios que desenvolvi durante o curso de JavaScript do canal no Youtube **Curso em Vídeo** em parceria com o Google, ministrado pelo professor Gustavo Guanabara.
 
-🔗 [Acesse a playlist completa do curso no YouTube aqui!](https://www.youtube.com/playlist?list=PLntvgXM11X6pi7mW0O4ZmfUI1xDSIbmTm)
+🔗 [Acesse a playlist completa do curso no YouTube aqui!](https://www.youtube.com/watch?v=Ptbk2af68e8&list=PLmRz6JukPwWNZ8xdJ0CBNNIEv9PHIAE7G)
 
 ---
 
