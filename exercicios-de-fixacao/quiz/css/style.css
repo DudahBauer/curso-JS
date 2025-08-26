@@ -1,0 +1,12 @@
+body{
+    background-color: rgb(180, 210, 252);
+}
+
+.imagem-harry{
+display: block;
+margin: 0 auto;
+width: 30%;
+height: auto;
+padding: 25px;
+}
+

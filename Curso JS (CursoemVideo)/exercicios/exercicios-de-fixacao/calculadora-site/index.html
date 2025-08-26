@@ -1,0 +1,56 @@
+<!-- Crie um site para servir de calculadora para os usuários.
+– As operações a serem realizadas são: adição, subtração, multiplicação,
+divisão;
+– Salve em uma área do site os resultados;
+– O site deve ser responsivo. -->
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>"Calculadora"</title>
+  </head>
+  <body>
+    <header class="wrapper"">
+      <h1>BEM-VINDO(A)</h1>
+    </header>
+
+    <div>
+        <form id="my-form">
+            <fieldset>
+                <legend>Abaixo, digite dois números e selecione uma operação para realizar com eles :))</legend>
+
+                <input type="number" name="numberOne" value="" placeholder="Digite aqui o primeiro número" id="nOne">
+
+                <br><br>
+                <input type="number" name="numberTwo" value="" placeholder="Digite aqui o segundo número" id="nTwo">
+                <div>
+                    <label>Adição</label>
+                    <input type="radio" name="operacao" id="adicao" value="+">
+                </div>
+
+                <div>
+                    <label>Subtração</label>
+                    <input type="radio" name="operacao" id="subtracao" value="-">
+                </div>
+
+                <div>
+                    <label>Multiplicação</label>
+                    <input type="radio" name="operacao" id="multiplicacao" value="*">
+                </div>
+
+                <div>
+                    <label>Divisão</label>
+                    <input type="radio" name="operacao" id="divisao" value="/">
+                </div>
+                <button type="submit" id="enviar">Enviar</button>
+            </fieldset>
+        </form>
+    </div>
+    <div>
+        <h2 id="result">Aqui vai aparecer o resultado</h2>
+    </div>
+    <script src="./js/script.js"></script>
+  </body>
+</html>

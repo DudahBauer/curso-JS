@@ -1,0 +1,63 @@
+<!-- Crie um Quiz Game com 5 perguntas. Utilize a TAG Select para o
+usuário informar se a resposta está certa ou errada. Ao final,
+mostre ao usuário a quantidade de pontos que ele fez. -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Quiz:</title>
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+  <header>
+    <h1>BEM-VINDO(A) AO QUIZ DE HARRY POTTER</h1>
+    <img src="./img/harry-potter-134524.webp" alt="imagem do harry, hermione e rony" class="imagem-harry" />
+  </header>
+  <p>Escolha uma resposta para cada pergunta:</p>
+  <form id="my-form">
+    <fieldset>
+      <label class="questoes"> Harry Potter nasceu no dia 31 de julho.</label>
+      <select name="data-de-nascimento">
+        <option value="verdadeiro">Verdadeiro</option>
+        <option value="falso">Falso</option>
+      </select>
+      <br /><br />
+      <label class="questoes">Hermione Granger é filha de dois bruxos.</label>
+      <select name="pais-da-hermione">
+        <option value="verdadeiro">Verdadeiro</option>
+        <option value="falso">Falso</option>
+      </select>
+      <br><br>
+      <label class="questoes">O nome completo do professor Dumbledore é Alvo Percival Wulfrico Brian Dumbledore</label>
+      <select name="nome-completo-dumbledore">
+        <option value="verdadeiro">Verdadeiro</option>
+        <option value="falso">Falso</option>
+      </select>
+      <br><br>
+      <label class="questoes">O feitiço usado para desarmar o oponente é Avada Kedavra.</label>
+      <select name="feitico">
+        <option value="verdadeiro">Verdadeiro</option>
+        <option value="falso">Falso</option>
+      </select>
+      <br><br>
+      <label class="questoes">Neville Longbottom matou a cobra Nagini no último filme.</label>
+      <select name="neville-matou">
+        <option value="verdadeiro">Verdadeiro</option>
+        <option value="falso">Falso</option>
+      </select>
+
+      <button type="submit">Enviar</button>
+
+    </fieldset>
+  </form>
+  <p>
+  <h2 id="frase-com-a-pontuacao">Aqui vai aparecer a quantidade de pontos</h2>
+  </p>
+  <script src="./js/script.js"></script>
+</body>
+
+</html>

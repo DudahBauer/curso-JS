@@ -1,0 +1,59 @@
+<!-- Crie uma página para envio de mensagens de dúvidas dos
+usuários. O usuário deve informar, Nome, E-mail; Telefone e
+Mensagem. Adicione um botão enviar. Após clicar no botão, o
+formulário deve ter seus dados apagados. -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Envio de</title>
+  </head>
+  <body>
+    <header class="my-header">
+      <div class="title">
+        <h1>Envie sua mensagem no formulario abaixo para a gente</h1>
+      </div>
+    </header>
+    <div class="wrapper">
+      <form action="" id="my-form">
+        <input
+          type="text"
+          name="user-name"
+          value=""
+          placeholder="Digite seu nome aqui"
+          id="user"
+        />
+
+        <br />
+
+        <input
+          type="text"
+          name="email"
+          value=""
+          placeholder="Digite seu e-mail aqui"
+          id="e-mail"
+        />
+        <br />
+        <input
+          type="text"
+          name="cellphone"
+          value=""
+          placeholder="Digite o seu telefone "
+          id="cell-phone"
+        />
+        <br />
+        <textarea
+          name="mensagem"
+          id="mensage"
+          placeholder="Digite aqui sua mensagem"
+        ></textarea>
+
+        <br />
+        <button type="submit" id="enviar">enviar</button>
+      </form>
+    </div>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
